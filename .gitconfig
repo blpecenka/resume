@@ -1,0 +1,13 @@
+[merge]
+	tool = kdiff3
+[diff]
+	guitool = kdiff3
+[core]
+	editor = \"C:/Program Files (x86)/GitExtensions/GitExtensions.exe\" fileeditor
+[mergetool "kdiff3"]
+	path = C:/Program Files/KDiff3/kdiff3.exe
+[difftool "kdiff3"]
+	path = C:/Program Files/KDiff3/kdiff3.exe
+[user]
+	name = blpecenka
+	email = blpecenka@gmail.com

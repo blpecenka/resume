@@ -1,0 +1,573 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, /*body,*/ div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/***************************
+Global
+***************************/
+body {
+	position: relative;
+	background-color: #ffffff;
+}
+.row {
+	margin-right: 0;
+}
+.accent-font-uppercase {
+	font-family: 'Playfair Display SC', serif;
+}
+.accent-font-lowercase {
+	font-family: 'Playfair Display', serif;
+}
+.content-font {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+#learn-more i {
+	color: #ffffff;
+	text-decoration: none;
+	-webkit-transition: color 0.3s linear;
+	  -moz-transition: color 0.3s linear;
+    	-o-transition: color 0.3s linear;
+    		transition: color 0.3s linear;
+}
+#learn-more i:hover {
+	color: #111111;
+}
+/*************************
+Main Navigation
+*************************/
+#custom-nav.navbar-default .navbar-brand {
+	color: #777777;
+}
+#custom-nav.navbar-default {
+	font-size: 20px;
+	background-color: #d6d6d6;	
+}
+#custom-nav.navbar-default .navbar-brand {
+	font-size: 17px;
+	color: #111111;
+}
+#custom-nav.navbar-default .navbar-nav > li > a {
+	color: #777777;
+	background-color: #d6d6d6;
+	-webkit-transition: 0.3s box-shadow linear;
+    -moz-transition: 0.3s box-shadow linear;
+    -o-transition: 0.3s box-shadow linear;
+    transition: 0.3s box-shadow linear;
+}
+#custom-nav.navbar-default .navbar-nav > li > a:hover,
+#custom-nav.navbar-default .navbar-nav > li > a:focus {
+	color: #333333;
+	background-color: #e7e7e7;
+	box-shadow: 10px 10px 5px #777777;
+}
+#custom-nav.navbar-default .navbar-nav > .active > a,
+#custom-nav.navbar-default .navbar-nav > .active > a:hover,
+#custom-nav.navbar-default .navbar-nav > .active > a:focus {
+	color: #333333;
+	background-color: #e7e7e7;
+	box-shadow: 10px 10px 5px #777777;
+}
+#custom-nav.navbar-default .navbar-toggle {
+    border-color: #333333;
+}
+#custom-nav.navbar-default .navbar-toggle:hover,
+#custom-nav.navbar-default .navbar-toggle:focus {
+    background-color: #777777;
+}
+#custom-nav.navbar-default .navbar-toggle .icon-bar {
+    background-color: #333333;
+}
+#custom-nav.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-nav.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #e7e7e7;
+}
+/**************************
+Home Section
+**************************/
+#link-to-top {
+	padding-top: 20px;
+}
+.home-wrapper {
+	border: 5px solid #111111;
+	border-radius: 5px;
+	margin-top: 50px;
+	margin-bottom: 200px;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+}
+.home-section {
+	padding-top: 100px;
+	padding-bottom: 50px;
+	background: #efc337;
+}
+.logo {
+	font-size: 100px;
+	padding-bottom: 50px;
+	color: #111111;
+}
+.home-section > h1 {
+	font-size: 75px;
+	color: #111111;
+}
+.home-section > h2 {
+	padding-top: 15px;
+	font-size: 50px;
+	color: #111111;
+}
+.home-wrapper #learn-more {
+	background-color: #efc337;
+	font-size: 100px;
+	text-align: center;
+	color: #111111;
+}
+.home-wrapper #learn-more p {
+	font-size: 20px;
+	text-align: center;
+}
+/*************************
+About Section
+*************************/
+#link-to-about {
+	padding-top: 50px;
+}
+.about-wrapper {
+	margin-bottom: 200px;
+	color: #ffffff;
+}
+.about-header {
+	color: #efc337;
+	font-size: 40px;
+	padding-bottom: 8px;
+	text-align: right;
+}
+.about-image {
+	width: 100%;
+	height: 100%;
+	margin: 15px;
+	border-radius: 5px;
+}
+.about-content {
+	color: #434343;
+	font-size: 24px;
+	line-height: 1.5em;
+	background-color: #ffffff;
+	height: 100%;
+}
+.about-content p {
+	padding-top: 10px;
+}
+.resume-download {
+	background: #111111;
+	font-size: 20px;
+	text-align: center;
+	padding: 76px;
+}
+.resume-download  button {
+	color: #efc337;
+	background-color: #111111;
+	text-decoration: none;
+	border: 0;
+	-webkit-transition: color 0.3s linear;
+	  -moz-transition: color 0.3s linear;
+    	-o-transition: color 0.3s linear;
+    		transition: color 0.3s linear;
+}
+.resume-download button:hover {
+	color: #ffffff;
+}
+.html-icon-wrapper {
+	height: 175px;
+	background-color: #e7e7e7;
+	color: #434343;
+	font-size: 5em;
+	text-align: center;
+	letter-spacing: -12px;
+	padding-top: .7em;
+	padding-bottom: .5em;
+	-webkit-transition: background-color 0.3s linear;
+	  -moz-transition: background-color 0.3s linear;
+    	-o-transition: background-color 0.3s linear;
+    		transition: background-color 0.3s linear;
+}
+.html-icon-wrapper:hover {
+	background-color: #efc337;
+	
+}
+ .html-hidden-icons {
+	color: #e7e7e7;
+	font-size: 60px;
+	-webkit-transition: color 0.3s linear;
+	  -moz-transition: color 0.3s linear;
+    	-o-transition: color 0.3s linear;
+    		transition: color 0.3s linear;
+}
+ .html-hidden-icons:hover {
+	color: #434343;
+}
+
+.javascript-icon-wrapper {
+	height: 175px;
+	background-color: #d6d6d6;
+	color: #ffffff;
+	font-size: 4.8em;
+	text-align: center;
+	letter-spacing: -9px;
+	padding-top: .7em;
+	padding-bottom: .5em;
+	-webkit-transition: background-color 0.3s linear;
+	  -moz-transition: background-color 0.3s linear;
+    	-o-transition: background-color 0.3s linear;
+    		transition: background-color 0.3s linear;
+
+}
+.javascript-icon-wrapper:hover {
+	background-color: #efc337;
+	
+}
+.javascript-hidden-icons {
+	color: #d6d6d6;
+	font-size: 60px;
+	-webkit-transition: color 0.3s linear;
+	  -moz-transition: color 0.3s linear;
+    	-o-transition: color 0.3s linear;
+    		transition: color 0.3s linear;
+}
+.javascript-hidden-icons:hover {
+	color: #434343;
+}
+.ruby-icon-wrapper {
+	height: 175px;
+	background-color: #777777;
+	color: #ffffff;
+	font-size: 4.8em;
+	letter-spacing: -10px;
+	text-align: center;
+	padding-top: .7em;
+	padding-bottom: .5em;
+	-webkit-transition: background-color 0.3s linear;
+	  -moz-transition: background-color 0.3s linear;
+    	-o-transition: background-color 0.3s linear;
+    		transition: background-color 0.3s linear;
+}
+.ruby-icon-wrapper:hover {
+	background-color: #efc337;
+}
+.ruby-hidden-icons {
+	color: #777777;
+	font-size: 60px;
+	-webkit-transition: color 0.3s linear;
+	  -moz-transition: color 0.3s linear;
+    	-o-transition: color 0.3s linear;
+    		transition: color 0.3s linear;
+}
+.ruby-hidden-icons:hover {
+	color: #ffffff;
+}
+
+/***********************
+Portfolio Section
+************************/
+#link-to-portfolio {
+	padding-top: 30px; 
+}
+.portfolio-wrapper {
+	margin: 0 0px 300px 0px;
+	background-color: #f6f6f6;
+}
+.portfolio-header h2 {
+	color: #434343;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 8px;
+}
+.row-one-portfolio {
+	margin: 0 20px;
+	padding-top: 50px;
+	background-color: #f6f6f6;
+}
+.row-one-portfolio .col-md-4 {
+	background-color: #efc337;
+	border-radius: 5px;
+	color: #ffffff;
+	line-height: 25px;
+	padding: 70px 20px 70px 20px;
+	text-align: center;
+}
+.row-one-portfolio .col-md-4 h3 {
+	font-size: 20px;
+}
+.portfolio-content-two {
+	font-size: 22px;
+	padding: 15px 0;
+	text-align: center;
+}
+.portfolio-github-link a {
+	font-size: 18px;
+	text-decoration: none;
+	color: #ffffff;
+	-webkit-transition: color 0.3s linear;
+	  -moz-transition: color 0.3s linear;
+    	-o-transition: color 0.3s linear;
+    		transition: color 0.3s linear;
+}
+.portfolio-github-link a:hover {
+	color: #111111;
+}
+.dev-match,
+.sharky {
+	font-size: 15px;
+	color: #111111;
+	text-align: center;
+	padding: 75px 5px;
+}
+.dev-match a,
+.sharky a {
+	font-size: 20px;
+	color: #434343;
+	background-color: #ffffff;
+	text-decoration: none;
+	-webkit-transition: background-color 0.3s linear;
+	  -moz-transition: background-color 0.3s linear;
+    	-o-transition: background-color 0.3s linear;
+    		transition: background-color 0.3s linear;
+}
+.dev-match a:hover,
+.sharky a:hover {
+	background-color: #d6d6d6;
+}
+.dev-match p,
+.sharky p {
+	padding: 20px 0;
+	line-height: 20px;
+}
+.row-two-portfolio {
+	padding-bottom: 30px;
+}
+.codepen-content {
+	text-align: left;
+	padding: 50px 0px 20px 0px;
+	font-size: 20px;
+}
+.codepen-content i {
+	display: block;
+	padding-bottom: 30px;
+}
+.codepen-content a {
+	text-decoration: none;
+	color: #434343;
+	-webkit-transition: color 0.3s linear;
+	  -moz-transition: color 0.3s linear;
+    	-o-transition: color 0.3s linear;
+    		transition: color 0.3s linear;
+}
+.codepen-content a:hover {
+	color: #efc337;
+}
+.codepen-content-title {
+	padding: 0 0 15px 0;
+	font-size: 20px;
+}
+.codepen-content p {
+	padding-top: 45px;
+	border-top: 1px solid #777777;
+}
+/**********************
+Portfolio Modals
+**********************/
+#devMatchModal .modal-dialog {
+	width: 35%;
+} 
+#sharkyModal .modal-dialog {
+	width: 80%;
+}
+#codePenOneModal .modal-dialog,
+#codePenTwoModal .modal-dialog,
+#codePenThreeModal .modal-dialog {
+	width: 80%;
+}
+.modal-title {
+	font-size: 20px;
+	text-align: center;
+	color: #111111;
+}
+.modal-footer button {
+	color: #111111;
+	background-color: #ffffff;
+	text-decoration: none;
+	-webkit-transition: background-color 0.3s linear;
+	  -moz-transition: background-color 0.3s linear;
+    	-o-transition: background-color 0.3s linear;
+    		transition: background-color 0.3s linear;
+}
+.modal-footer button:hover {
+	background-color: #d6d6d6;
+}
+iframe {
+	width: 100%;
+	height: 500px;
+}
+/**********************
+Contact Section
+**********************/
+#link-to-contact {
+	padding-top: 70px;
+}
+.contact-wrapper {
+	margin-bottom: 100px;
+	padding-top: 125px;
+	background-color: #e7e7e7;
+	color: #777777;
+	height: 500px;
+	text-align: center;
+}
+.contact-header {
+	font-size: 30px;
+	padding-bottom: 150px;
+	text-align: center;
+}
+.contact-methods {
+	text-align: center;
+	padding-bottom: 50px;
+}
+.contact-icon {
+	color: #efc337;
+	-webkit-transition: color 0.3s linear;
+	  -moz-transition: color 0.3s linear;
+    	-o-transition: color 0.3s linear;
+    		transition: color 0.3s linear;
+}
+.contact-icon:hover {
+	color: #777777;
+}
+.contact-wrapper #learn-more {
+	font-size: 100px;
+	text-align: center;
+}
+.contact-wrapper #learn-more p {
+	font-size: 20px;
+	text-align: center;
+}
+/*************************
+Footer 
+*************************/
+footer {
+	text-align: center;
+	color: #111111;
+	padding-bottom: 10px;
+}
+footer span {
+	color: #efc337;
+}
+/*********************
+Media Query
+*********************/
+@media(max-width: 1000px) {
+  .codepen-content p {
+  	border-top: none;
+  	} 
+  	.codepen-content {
+  	text-align: center;
+  }
+  	#devMatchModal .modal-dialog {
+	width: 50%;
+	}
+	#sharkyModal .modal-dialog {
+	width: 90%;
+	}
+	#codePenOneModal .modal-dialog,
+	#codePenTwoModal .modal-dialog,
+	#codePenThreeModal .modal-dialog {
+	width: 90%;
+	}
+	.contact-methods {
+		font-size: 1.5em;
+	}
+}
+@media screen and (max-width: 550px) {
+  .home-section > h1 {
+  	font-size: 50px;
+  	}
+  .logo > h3 {
+  	font-size: 75px;
+  }
+  .home-section > h2 {
+  	font-size: 40px;
+  }
+  .about-header {
+  	font-size: 30px;
+  	text-align: center;
+  }
+  .about-content {
+  	text-align: center;
+  }
+  .portfolio-header {
+  	font-size: 30px;
+  	padding-left: 0;
+  	text-align: center;
+  }
+  iframe {
+  	overflow: hidden;
+  	height: 250px;
+  }
+  .codepen-content {
+  	text-align: center;
+  }
+  .codepen-content p {
+  	border-top: none;
+  } 
+  #devMatchModal .modal-dialog {
+	width: 95%;
+	}
+	#sharkyModal .modal-dialog {
+	width: 95%;
+	}
+	#codePenOneModal .modal-dialog,
+	#codePenTwoModal .modal-dialog,
+	#codePenThreeModal .modal-dialog {
+	width: 95%;
+	}
+	.contact-methods {
+		font-size: 1.5em;
+	}
+	#learn-more i {
+		color: #111111;
+	}
+}/* end of media query */
