@@ -120,7 +120,7 @@ Main Navigation
 /**************************
 Home Section
 **************************/
-#link-to-top {
+#home {
 	padding-top: 20px;
 }
 .home-wrapper {
@@ -164,7 +164,7 @@ Home Section
 /*************************
 About Section
 *************************/
-#link-to-about {
+#about {
 	padding-top: 50px;
 }
 .about-wrapper {
@@ -301,10 +301,11 @@ About Section
 	color: #ffffff;
 }
 
+
 /***********************
 Portfolio Section
 ************************/
-#link-to-portfolio {
+#portfolio {
 	padding-top: 30px; 
 }
 .portfolio-wrapper {
@@ -413,7 +414,7 @@ Portfolio Section
 Portfolio Modals
 **********************/
 #devMatchModal .modal-dialog {
-	width: 35%;
+	width: 80%;
 } 
 #sharkyModal .modal-dialog {
 	width: 80%;
@@ -447,7 +448,7 @@ iframe {
 /**********************
 Contact Section
 **********************/
-#link-to-contact {
+#contact {
 	padding-top: 70px;
 }
 .contact-wrapper {

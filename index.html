@@ -52,16 +52,16 @@
    <div id="home-navbar-collapse" class="collapse navbar-collapse accent-font-uppercase">
     <!-- Toggle Links -->
       <ul class="nav navbar-nav">
-         <li><a class="scroll" href="#link-to-top"><i class="fa fa-angle-double-right"></i> Home</a></li>
-         <li><a class="scroll" href="#link-to-about"><i class="fa fa-angle-double-right"></i> About</a></li>
-         <li><a class="scroll" href="#link-to-portfolio"><i class="fa fa-angle-double-right"></i> Portfolio</a></li>
-         <li><a class="scroll" href="#link-to-contact"><i class="fa fa-angle-double-right"></i> Contact</a></li>    
+         <li><a class="scroll" href="#home"><i class="fa fa-angle-double-right"></i> Home</a></li>
+         <li><a class="scroll" href="#about"><i class="fa fa-angle-double-right"></i> About</a></li>
+         <li><a class="scroll" href="#portfolio"><i class="fa fa-angle-double-right"></i> Portfolio</a></li>
+         <li><a class="scroll" href="#contact"><i class="fa fa-angle-double-right"></i> Contact</a></li>    
       </ul>
    </div>
 </nav>
 
 <!--- Home Section -->
-<div id="link-to-top">
+<div id="home">
   </div>
 
 <div class="home-wrapper">
@@ -71,14 +71,14 @@
       <h3>Bp</h3>
     </div>
     <h1>Brittany Pecenka</h1>
-    <h2 class="content-font">Web Developer + Designer</h2>
+    <h2 class="content-font">Web Developer</h2>
   </div>
 
 
 
   <div id="learn-more">
     <p class="accent-font-lowercase">Learn More</p>
-    <a class="scroll" href="#link-to-about"><i class="fa fa-angle-double-down"></i></a>
+    <a class="scroll" href="#about"><i class="fa fa-angle-double-down"></i></a>
   </div>
 
 
@@ -86,7 +86,7 @@
 </div> <!-- End Home Section -->
 
 <!-- About Section -->
-<div id="link-to-about">
+<div id="about">
   <h4 class="about-header accent-font-lowercase">Communications specialist turned web developer...</h4>
 </div>
 
@@ -97,9 +97,8 @@
       <img src="images/profile-image.jpg" alt="Profile image" class="about-image img-responsive">
     </div>
     <div class="col-md-6 content-font about-content">
-      <p>I am a multilingual Web Developer and UX Designer from Peoria, Illinois. My journey into programming began by teaching English as a Second Language (ESL) to international students via the web. My background in English and langauge studies has given me a keen eye for grammatical mistakes and concise markup. I have worked remotely as well as in group settings, which has further allowed me to expand my communicatin skills. </p>
-      <p>The web is truly a form of communication where people understand simplicity. I value a minimalist design with clean navigation for optimal effect. I have advanced communication skills for developing relationships with subject matter and clients.</p>
-      <p>Everyone just wants to communicate with each other. Whether in French, Italian, or Ruby on Rails, I strive for meaningful and clear communication through code.</p>
+      <p>I am a multilingual, Web Developer from Peoria, Illinois. My specialty is in Ruby on Rails, with experience in both Front End and Back End code base management. Currently employed at Mcomm Group, Inc. in Peoria, my responsibilities include Ruby on Rails programming, advanced CSS/Sass and JavaScript implementation, MySQL database administration, and project management. My background in English and langauge studies provides me with the ability to clearly communicate with my peers, and accurately see to my tasks at hand. </p>
+      <p>I have worked remotely as well as in group settings, which has further allowed me to expand my communication skills. In addition, I have advanced communication abilities for developing relationships with subject matter and clients.</p>
       <p class="accent-font-lowercase"><i class="fa fa-angle-double-right"></i> Brittany</p>
     </div>
   </div> <!-- End Row One -->
@@ -109,7 +108,7 @@
 
     <!-- Resume Download Trigger -->
     <div class="col-md-6 resume-download">
-      <form method="get" action="bpresume.pdf" target="_blank">
+      <form method="get" action="blpresume.pdf" target="_blank">
         <button type="submit" class="accent-font-uppercase">View my resume</button>
     </form>
     </div> <!-- End Resume Download -->
@@ -136,10 +135,9 @@
 </div> <!-- End About Section -->
 
 
-
 <!-- Portfolio Section -->
 
-<div id="link-to-portfolio" class="portfolio-header">
+<div id="portfolio" class="portfolio-header">
   <h2 class="accent-font-uppercase">A Collection Of Works</h2>
 </div>
 
@@ -151,9 +149,9 @@
   <div class="row row-one-portfolio">
 
     <!-- Dev Match -->
-    <div class="col-md-2 col-md-offset-1">
+    <div class="col-md-3">
       <div class="dev-match">
-        <a href="#" class="btn btn-default accent-font-uppercase" data-toggle="modal" data-target="#devMatchModal">RunTracker</a>
+        <a href="#" class="btn btn-default accent-font-uppercase" data-toggle="modal" data-target="#devMatchModal">My Plumbing Training</a>
 
         <!-- devMatchModal -->
         <div class="modal fade" id="devMatchModal" tabindex="-1" role="dialog" aria-labelledby="devMatchModal" aria-hidden="true">
@@ -161,10 +159,20 @@
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title accent-font-uppercase" id="myModalLabel">RunTracker</h4>
+                <h4 class="modal-title accent-font-uppercase" id="myModalLabel">My Plumbing Training</h4>
               </div> <!-- End modal-header -->
               <div class="modal-body">
-                <iframe src="http://runtracker.brittanypecenka.com/index.html"></iframe>
+                <div class="row">
+                  <div class="col-md-4" style="background-color: #fff">
+                    <img src="images/mnplumb.jpg" class="image-responsive" style="max-width: 300px;">
+                  </div>
+                  <div class="col-md-8 content-font text-left" style="font-size: 20px;">
+                    <p>A dynamic, Ruby on Rails site built for the continuing education of plumbers worldwide. Includes payment portal, as well as backend class creation for admins.</p>
+                    <p>Ongoing development is still taking place. Responsibilities included database architecture, design integration, project management, and code base development. Project developed while employed at Mcomm Group, Inc. in Peoria, IL.</p>
+                    <p>Project built primarily with Ruby on Rails with Stripe payment integration.</p>
+                    <a href="https://myplumbingtraining.com" class="btn btn-default accent-font-uppercase" target="_blank">See it live</a>
+                  </div>
+                </div>
               </div> <!-- End modal-body -->
               <div class="modal-footer">
                 <button type="button" class="btn btn-default accent-font-uppercase" data-dismiss="modal">CLOSE</button>
@@ -173,9 +181,9 @@
           </div>
         </div><!-- End devMatchModal -->
 
-        <p class="accent-font-lowercase">Functional jQuery mobile application.</p>
+        <p class="accent-font-lowercase">Dynamic, continuing education web application for plumbers.</p>
         <i class="fa fa-angle-double-down"></i>
-        <p class="accent-font-lowercase">Includes HTML5 localStorage API and jQuery Mobile framework.</p>
+        <p class="accent-font-lowercase">Implemented and developed in Ruby on Rails.</p>
       </div>
     </div>
     <!-- End Dev Match -->
@@ -185,9 +193,9 @@
       <h3 class="accent-font-uppercase">Additional Sample Work Includes</h3>
       <div class="portfolio-content-two">
         <p class="content-font">Ruby on Rails</p>
+        <p class="content-font">MySQL</p>
         <p class="content-font">JavaScript</p>
-        <p class="content-font">Bootstrap</p>
-        <p class="content-font">Sass</p>
+        <p class="content-font">Bootstrap & Sass</p>
         <p class="content-font">Responsive Design</p>
       </div>
       <h3 class="accent-font-lowercase">For Code Samples</h3>
@@ -199,9 +207,9 @@
     <!-- End Center Yellow Section -->
 
     <!--Sharky -->
-    <div class="col-md-2 col-md-offset-1">
+    <div class="col-md-3 col-md-offset-1">
       <div class="sharky">
-        <a href="#" class="btn btn-default accent-font-uppercase" data-toggle="modal" data-target="#sharkyModal">Sharky</a>
+        <a href="#" class="btn btn-default accent-font-uppercase" data-toggle="modal" data-target="#sharkyModal">Mcomm Group</a>
 
         <!-- sharkyModal -->
         <div class="modal fade" id="sharkyModal" tabindex="-1" role="dialog" aria-labelledby="sharkyModal" aria-hidden="true">
@@ -209,10 +217,19 @@
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title accent-font-uppercase" id="myModalLabel">Sharky</h4>
+                <h4 class="modal-title accent-font-uppercase" id="myModalLabel">Mcomm Group Marketing Website</h4>
               </div> <!-- End modal-header -->
               <div class="modal-body">
-                <iframe src="http://sharky.brittanypecenka.com/"></iframe>
+                <div class="row">
+                  <div class="col-sm-4">
+                    <img src="images/mcomm.jpg">
+                  </div>
+                  <div class="col-sm-8 content-font text-left" style="font-size: 20px;">
+                    <p>A dynamic, Ruby on Rails site built for the purpose of promoting and supporting Mcomm Group, Inc.</p>
+                    <p>Legacy code which was maintained and further developed during my time at Mcomm Group.</p>
+                    <p>Code base built in Ruby on Rails with HAML syntax, as well as Bootstrap for responsive design and mobility.</p>
+                    <a href="http://mcommgroup.com" class="btn btn-default accent-font-uppercase" target="_blank">See it live</a>
+                  </div>
               </div> <!-- End modal-body -->
               <div class="modal-footer">
                 <button type="button" class="btn btn-default accent-font-uppercase" data-dismiss="modal">CLOSE</button>
@@ -220,12 +237,10 @@
             </div> <!-- End modal-content -->
           </div>
         </div><!-- End sharkyModal -->
-
-        <p class="accent-font-lowercase">Responsive CSS and JavaScript driven website.</p>
-        <i class="fa fa-angle-double-down"></i>
-        <p class="accent-font-lowercase">Demo site for movie reviews featuring pure CSS and formatting.</p>
-        <p></p>
       </div>
+      <p class="accent-font-lowercase">Ruby on Rails web application.</p>
+      <i class="fa fa-angle-double-down"></i>
+      <p class="accent-font-lowercase">Mobile-ready marketing site, displaying company objectives and portfolio.</p>
     </div>
     <!-- End Sharky -->
 
@@ -235,13 +250,13 @@
   <div class="row row-two-portfolio">
 
     <!-- codepen-one -->
-    <div class="col-md-2 col-md-offset-2">
+    <div class="col-md-2 col-md-offset-2 col-sm-4">
       <div class="codepen-one">
 
         <div class="codepen-content">
-          <a href="#" data-toggle="modal" data-target="#codePenOneModal"><i class="fa fa-youtube-play fa-lg"></i></a>
-          <a href="#" class="btn codepen-content-title accent-font-uppercase" data-toggle="modal" data-target="#codePenOneModal">YouTube API</a>
-          <p class="content-font">Responsive, JavaScript and jQuery powered YouTube search engine.</p>
+          <a href="#" data-toggle="modal" data-target="#codePenOneModal"><i class="fa fa-code fa-lg"></i></a>
+          <a href="#" class="btn codepen-content-title accent-font-uppercase" data-toggle="modal" data-target="#codePenOneModal">Mining All In</a>
+          <p class="content-font">Single page, static site hand coded in HTML5, CSS3, and JavaScript.</p>
         </div>
 
 
@@ -251,10 +266,20 @@
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title accent-font-uppercase" id="myModalLabel">YouTube API</h4>
+                <h4 class="modal-title accent-font-uppercase" id="myModalLabel">Mining All In</h4>
               </div> <!-- End modal-header -->
               <div class="modal-body">
-                <iframe src="http://searchvidz.brittanypecenka.com"></iframe>
+                <div class="row">
+                  <div class="col-sm-4">
+                    <img src="images/logo.jpg">
+                  </div>
+                  <div class="col-sm-8 content-font text-left" style="font-size: 20px;">
+                    <p>A static site built for the purpose promoting the upcoming MINExpo International 2016.</p><br>
+                    <p>Developed based off designer sketches and template layouts while employed at Mcomm Group, Inc. in early 2016.</p><br>
+                    <p>Project built primarily with HTML5, CSS3, JavaScript, Bootstrap, and jQuery.</p><br>
+                    <a href="http://miningallin.com" class="btn btn-default accent-font-uppercase" target="_blank">See it live</a>
+                  </div>
+                </div>
               </div> <!-- End modal-body -->
               <div class="modal-footer">
                 <button type="button" class="btn btn-default accent-font-uppercase" data-dismiss="modal">CLOSE</button>
@@ -267,13 +292,13 @@
     </div>
 
     <!-- codepen-two -->
-    <div class="col-md-2 col-md-offset-1">
+    <div class="col-md-2 col-md-offset-1 col-sm-4">
       <div class="codepen-two">
 
         <div class="codepen-content">
           <a href="#" data-toggle="modal" data-target="#codePenTwoModal"><i class="fa fa-sliders fa-lg"></i></a>
-          <a href="#" class="btn codepen-content-title accent-font-uppercase" data-toggle="modal" data-target="#codePenTwoModal">Content Slider</a>
-          <p class="content-font">Complete jQuery slider including beautiful images of Peoria, IL.</p>
+          <a href="#" class="btn codepen-content-title accent-font-uppercase" data-toggle="modal" data-target="#codePenTwoModal">Best Estimate Pro</a>
+          <p class="content-font">PHP web application for electrical estimates.</p>
         </div>
         
         <!-- codePenTwoModal -->
@@ -282,10 +307,20 @@
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title accent-font-uppercase" id="myModalLabel">Content Slider</h4>
+                <h4 class="modal-title accent-font-uppercase" id="myModalLabel">Best Estimate Pro</h4>
               </div> <!-- End modal-header -->
               <div class="modal-body">
-                <iframe src="http://jqueryslider.brittanypecenka.com"></iframe>
+                <div class="row">
+                  <div class="col-sm-4">
+                    <img src="images/bep.jpg">
+                  </div>
+                  <div class="col-sm-8 content-font text-left" style="font-size: 20px;">
+                    <p>A dynamic web application built in PHP for faster, easier electrical estimates.</p><br>
+                    <p>Code based maintained and further developed, as well as Project Management responsibilities including client communication and team organization. Project developed while employed at Mcomm Group, Inc. in Peoria, IL.</p><br>
+                    <p>Project built in PHP with Strip integration.</p><br>
+                    <a href="http://test.bestestimatepro.com/" class="btn btn-default accent-font-uppercase" target="_blank">See it live</a>
+                  </div>
+                </div>
               </div> <!-- End modal-body -->
               <div class="modal-footer">
                 <button type="button" class="btn btn-default accent-font-uppercase" data-dismiss="modal">CLOSE</button>
@@ -298,13 +333,13 @@
     </div>
 
     <!-- codepen-three -->
-    <div class="col-md-2 col-md-offset-1">
+    <div class="col-md-2 col-md-offset-1 col-sm-4">
       <div class="codepen-three">
 
         <div class="codepen-content">
-          <a href="#" data-toggle="modal" data-target="#codePenThreeModal"><i class="fa fa-folder-o fa-lg"></i></a>
-          <a href="#" class="btn codepen-content-title accent-font-uppercase" data-toggle="modal" data-target="#codePenThreeModal">Portfolio Gallery</a>
-          <p class="content-font">Demo portfolio gallery for developers, entrepreneurs, and photographers.</p>
+          <a href="#" data-toggle="modal" data-target="#codePenThreeModal"><i class="fa fa-wordpress fa-lg"></i></a>
+          <a href="#" class="btn codepen-content-title accent-font-uppercase" data-toggle="modal" data-target="#codePenThreeModal">Ahead of the Grade</a>
+          <p class="content-font">Static, single page site in WordPress.</p>
         </div>
 
         <!-- codePenTwoModal -->
@@ -313,10 +348,20 @@
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title accent-font-uppercase" id="myModalLabel">Portfolio Gallery</h4>
+                <h4 class="modal-title accent-font-uppercase" id="myModalLabel">Ahead of the Grade</h4>
               </div> <!-- End modal-header -->
               <div class="modal-body">
-                <iframe src="http://portfoliogallery.brittanypecenka.com"></iframe>
+                <div class="row">
+                  <div class="col-sm-4">
+                    <img src="images/ahead.jpg">
+                  </div>
+                  <div class="col-sm-8 content-font text-left" style="font-size: 20px;">
+                    <p>Single page site to educate potential and existing clients on current company development.</p><br>
+                    <p>Developed and maintained in WordPress. Project developed while employed at Mcomm Group, Inc. in Peoria, IL.</p><br>
+                    <p>Custom coded PHP, as well as CSS included in the project for mobile optimization and user interface.</p><br>
+                    <a href="http://aheadofthegrade.com/" class="btn btn-default accent-font-uppercase" target="_blank">See it live</a>
+                  </div>
+                </div>
               </div> <!-- End modal-body -->
               <div class="modal-footer">
                 <button type="button" class="btn btn-default accent-font-uppercase" data-dismiss="modal">CLOSE</button>
@@ -334,7 +379,7 @@
 
 <!-- Contact Section -->
 
-<div id="link-to-contact" class="contact-wrapper">
+<div id="contact" class="contact-wrapper">
 
   <div class="row">
     <div class="col-md-3"></div>
@@ -364,7 +409,7 @@
   </div>
 
   <div id="learn-more">
-    <a class="scroll" href="#link-to-top"><i class="fa fa-angle-double-up"></i></a>
+    <a class="scroll" href="#home"><i class="fa fa-angle-double-up"></i></a>
     <p class="accent-font-lowercase">Back to Top</p>
   </div>
 
