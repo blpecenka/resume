@@ -95,43 +95,47 @@
   <div class="row row-one">
     <div class="col-md-6">
       <img src="images/profile-image.jpg" alt="Profile image" class="about-image img-responsive">
+      <form method="get" action="blpresume.pdf" target="_blank">
+        <button type="submit" class="accent-font-uppercase btn resume-download">View my resume</button>
+      </form>
     </div>
     <div class="col-md-6 content-font about-content">
-      <p>I am a multilingual, Web Developer from Peoria, Illinois. My specialty is in Ruby on Rails, with experience in both Front End and Back End code base management. Currently employed at Mcomm Group, Inc. in Peoria, my responsibilities include Ruby on Rails programming, advanced CSS/Sass and JavaScript implementation, MySQL database administration, and project management. My background in English and langauge studies provides me with the ability to clearly communicate with my peers, and accurately see to my tasks at hand. </p>
+      <p>I am a multilingual Web Developer from Peoria, Illinois. My specialty is in Ruby on Rails, with experience in both Front End and Back End code base management. Currently employed at Mcomm Group, Inc. in Peoria, my responsibilities include Ruby on Rails programming, advanced CSS/Sass and JavaScript implementation, MySQL database administration, and project management. My background in English and langauge studies provides me with the ability to clearly communicate with my peers, and accurately see to my tasks at hand. </p>
       <p>I have worked remotely as well as in group settings, which has further allowed me to expand my communication skills. In addition, I have advanced communication abilities for developing relationships with subject matter and clients.</p>
       <p class="accent-font-lowercase"><i class="fa fa-angle-double-right"></i> Brittany</p>
     </div>
   </div> <!-- End Row One -->
 
-  <!-- Row Two -->
-  <div class="row row-two">
-
-    <!-- Resume Download Trigger -->
-    <div class="col-md-6 resume-download">
-      <form method="get" action="blpresume.pdf" target="_blank">
-        <button type="submit" class="accent-font-uppercase">View my resume</button>
-    </form>
-    </div> <!-- End Resume Download -->
-
-    <div class="col-md-2 html-icon-wrapper">
-      <i class="html-hidden-icons devicon-css3-plain-wordmark"></i>
-      <i class="devicon-html5-plain-wordmark"></i>
-      <i class="html-hidden-icons devicon-sass-original"></i>
+  <div class="row about-icon-wrapper">
+    <div class="col-md-12">
+      <div class="row">
+        <div class="col-md-1 col-sm-1 col-xs-3 col-md-offset-2 col-sm-offset-2">
+          <i class="resume-icon devicon-html5-plain"></i>
+        </div>
+        <div class="col-md-1 col-sm-1 col-xs-3">
+          <i class="resume-icon devicon-css3-plain-wordmark"></i>
+        </div>
+        <div class="col-md-1 col-sm-1 col-xs-3">
+          <i class="resume-icon devicon-sass-original"></i>
+        </div>
+        <div class="col-md-1 col-sm-1 col-xs-3">
+          <i class="resume-icon devicon-javascript-plain"></i>
+        </div>
+        <div class="col-md-1 col-sm-1 col-xs-3">
+          <i class="resume-icon devicon-bootstrap-plain-wordmark"></i>
+        </div>
+        <div class="col-md-1 col-sm-1 col-xs-3">
+          <i class="resume-icon devicon-mysql-plain-wordmark"></i>
+        </div>
+        <div class="col-md-1 col-sm-1 col-xs-3">
+          <i class="resume-icon devicon-ruby-plain-wordmark"></i>
+        </div>
+        <div class="col-md-1 col-sm-1 col-xs-3">
+          <i class="resume-icon devicon-rails-plain-wordmark"></i>
+        </div>
+      </div>
     </div>
-
-    <div class="col-md-2 javascript-icon-wrapper">
-      <i class="javascript-hidden-icons devicon-jquery-plain-wordmark"></i>
-      <i class="devicon-javascript-plain"></i>
-      <i class="javascript-hidden-icons devicon-bootstrap-plain-wordmark"></i>
-    </div>
-
-    <div class="col-md-2 ruby-icon-wrapper">
-      <i class="ruby-hidden-icons devicon-git-plain-wordmark"></i>
-      <i class="devicon-ruby-plain-wordmark"></i>
-      <i class="ruby-hidden-icons devicon-rails-plain-wordmark"></i>
-    </div>
-  </div> <!-- End Row Two -->
-
+  </div>
 </div> <!-- End About Section -->
 
 
@@ -163,14 +167,18 @@
               </div> <!-- End modal-header -->
               <div class="modal-body">
                 <div class="row">
-                  <div class="col-md-4" style="background-color: #fff">
-                    <img src="images/mnplumb.jpg" class="image-responsive" style="max-width: 300px;">
+                  <div class="col-md-5 col-sm-12" style="background-color: #fff">
+                    <img src="images/mnplumb.jpg" class="modal-icon img-responsive" style="max-width: 300px;">
                   </div>
-                  <div class="col-md-8 content-font text-left" style="font-size: 20px;">
-                    <p>A dynamic, Ruby on Rails site built for the continuing education of plumbers worldwide. Includes payment portal, as well as backend class creation for admins.</p>
-                    <p>Ongoing development is still taking place. Responsibilities included database architecture, design integration, project management, and code base development. Project developed while employed at Mcomm Group, Inc. in Peoria, IL.</p>
-                    <p>Project built primarily with Ruby on Rails with Stripe payment integration.</p>
-                    <a href="https://myplumbingtraining.com" class="btn btn-default accent-font-uppercase" target="_blank">See it live</a>
+                  <div class="col-md-7 col-sm-12 content-font text-left" style="font-size: 20px;">
+                    <p><span class="overview strong">OVERVIEW: </span>A dynamic, Ruby on Rails site built for the continuing education of plumbers worldwide. Includes payment portal, as well as backend class creation for admins.</p>
+                    <p><span class="strong">STATUS: </span>Testing Live</p>
+                    <p><span class="strong">RESPONSIBILITIES: </span>Project Manager, Lead Developer, Data Architect, Design/Theme Implementation</p>
+                    <p><span class="strong">LANGUAGE: </span>Ruby</p>
+                    <p><span class="strong">FRAMEWORK: </span>Rails</p>
+                    <p><span class="strong">DATABASE: </span>MySQL</p>
+                    <p><span class="strong">ADDITIONAL FEATURES: </span>Stripe Integration</p>
+                    <a href="https://myplumbingtraining.com" class="btn btn-lg btn-default accent-font-uppercase" target="_blank">See it live</a>
                   </div>
                 </div>
               </div> <!-- End modal-body -->
@@ -225,10 +233,15 @@
                     <img src="images/mcomm.jpg">
                   </div>
                   <div class="col-sm-8 content-font text-left" style="font-size: 20px;">
-                    <p>A dynamic, Ruby on Rails site built for the purpose of promoting and supporting Mcomm Group, Inc.</p>
-                    <p>Legacy code which was maintained and further developed during my time at Mcomm Group.</p>
-                    <p>Code base built in Ruby on Rails with HAML syntax, as well as Bootstrap for responsive design and mobility.</p>
-                    <a href="http://mcommgroup.com" class="btn btn-default accent-font-uppercase" target="_blank">See it live</a>
+                    <p><span class="overview strong">OVERVIEW: </span>A dynamic, Ruby on Rails site built for the purpose of promoting and supporting Mcomm Group, Inc</p>
+                    <p><span class="strong">STATUS: </span>Live</p>
+                    <p><span class="strong">ROLE: </span>Developer</p>
+                    <p><span class="strong">RESPONSIBILITIES: </span>Transitioned hard coded widths/heights to mobile-ready. Generated new content pages.</p>
+                    <p><span class="strong">LANGUAGE: </span>Ruby</p>
+                    <p><span class="strong">FRAMEWORK: </span>Rails</p>
+                    <p><span class="strong">DATABASE: </span>MySQL</p>
+                    <p><span class="strong">ADDITIONAL FEATURES: </span>Currently redesigning site</p>
+                    <a href="http://mcommgroup.com" class="btn btn-lg btn-default accent-font-uppercase" target="_blank">See it live</a>
                   </div>
               </div> <!-- End modal-body -->
               <div class="modal-footer">
@@ -270,14 +283,16 @@
               </div> <!-- End modal-header -->
               <div class="modal-body">
                 <div class="row">
-                  <div class="col-sm-4">
+                  <div class="col-sm-3 col-sm-offset-1 col-xs-4 col-xs-offset-4">
                     <img src="images/logo.jpg">
                   </div>
-                  <div class="col-sm-8 content-font text-left" style="font-size: 20px;">
-                    <p>A static site built for the purpose promoting the upcoming MINExpo International 2016.</p><br>
-                    <p>Developed based off designer sketches and template layouts while employed at Mcomm Group, Inc. in early 2016.</p><br>
-                    <p>Project built primarily with HTML5, CSS3, JavaScript, Bootstrap, and jQuery.</p><br>
-                    <a href="http://miningallin.com" class="btn btn-default accent-font-uppercase" target="_blank">See it live</a>
+                  <div class="col-sm-8 col-xs-12 content-font text-left" style="font-size: 20px;">
+                    <p><span class="overview strong">OVERVIEW: </span>A static, HTML5 site built for the purpose promoting the upcoming MINExpo International 2016. Developed based off designer sketches and template layouts while employed at Mcomm Group, Inc.</p>
+                    <p><span class="strong">STATUS: </span>Live</p>
+                    <p><span class="strong">RESPONSIBILITIES: </span>Development of entire code base</p>
+                    <p><span class="strong">DESCRIPTION: </span>HTML5, Bootstrap, CSS, fullPage.js Library</p>
+                    <p><span class="strong">ADDITIONAL FEATURES: </span>Act-On Integration</p>
+                    <a href="http://miningallin.com" class="btn btn-lg btn-default accent-font-uppercase" target="_blank">See it live</a>
                   </div>
                 </div>
               </div> <!-- End modal-body -->
@@ -297,8 +312,8 @@
 
         <div class="codepen-content">
           <a href="#" data-toggle="modal" data-target="#codePenTwoModal"><i class="fa fa-sliders fa-lg"></i></a>
-          <a href="#" class="btn codepen-content-title accent-font-uppercase" data-toggle="modal" data-target="#codePenTwoModal">Best Estimate Pro</a>
-          <p class="content-font">PHP web application for electrical estimates.</p>
+          <a href="#" class="btn codepen-content-title accent-font-uppercase" data-toggle="modal" data-target="#codePenTwoModal">Mcomm CRM</a>
+          <p class="content-font">Ruby on Rails, software as a service web application for businesses.</p>
         </div>
         
         <!-- codePenTwoModal -->
@@ -307,18 +322,22 @@
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title accent-font-uppercase" id="myModalLabel">Best Estimate Pro</h4>
+                <h4 class="modal-title accent-font-uppercase" id="myModalLabel">Mcomm CRM</h4>
               </div> <!-- End modal-header -->
               <div class="modal-body">
                 <div class="row">
-                  <div class="col-sm-4">
-                    <img src="images/bep.jpg">
+                  <div class="col-sm-2 col-xs-2 col-sm-offset-1 col-xs-offset-4">
+                    <img src="images/mcomm.jpg">
                   </div>
-                  <div class="col-sm-8 content-font text-left" style="font-size: 20px;">
-                    <p>A dynamic web application built in PHP for faster, easier electrical estimates.</p><br>
-                    <p>Code based maintained and further developed, as well as Project Management responsibilities including client communication and team organization. Project developed while employed at Mcomm Group, Inc. in Peoria, IL.</p><br>
-                    <p>Project built in PHP with Strip integration.</p><br>
-                    <a href="http://test.bestestimatepro.com/" class="btn btn-default accent-font-uppercase" target="_blank">See it live</a>
+                  <div class="col-sm-8 col-sm-offset-1 col-xs-12 content-font text-left" style="font-size: 20px;">
+                    <p><span class="strong overview">OVERVIEW: </span>The Mcomm CRM is currently being utilized internally at Mcomm Communications, Inc., as well as available for purchase as a Software as a Service (Saas) for businesses.</p>
+                    <p><span class="strong">STATUS: </span>Internal</p>
+                    <p><span class="strong">RESPONSIBILITIES: </span>Front End Design and Development, Data Vizualization</p>
+                    <p><span class="strong">LANGUAGE: </span>Ruby</p>
+                    <p><span class="strong">FRAMEWORK: </span>Rails</p>
+                    <p><span class="strong">DATABASE: </span>MySQL</p>
+                    <p><span class="strong">ADDITIONAL FEATURES: </span>Chart.js Library Integration</p>
+                    <a href="mailto:brittany.pecenka@gmail.com?subject=Hello,%20nice%20to%20meet%20you." class="btn btn-lg btn-default accent-font-uppercase">Contact me for more information</a>
                   </div>
                 </div>
               </div> <!-- End modal-body -->
@@ -352,14 +371,15 @@
               </div> <!-- End modal-header -->
               <div class="modal-body">
                 <div class="row">
-                  <div class="col-sm-4">
-                    <img src="images/ahead.jpg">
+                  <div class="col-md-5 col-sm-12">
+                    <img class="modal-icon" src="images/ahead.jpg">
                   </div>
-                  <div class="col-sm-8 content-font text-left" style="font-size: 20px;">
-                    <p>Single page site to educate potential and existing clients on current company development.</p><br>
-                    <p>Developed and maintained in WordPress. Project developed while employed at Mcomm Group, Inc. in Peoria, IL.</p><br>
-                    <p>Custom coded PHP, as well as CSS included in the project for mobile optimization and user interface.</p><br>
-                    <a href="http://aheadofthegrade.com/" class="btn btn-default accent-font-uppercase" target="_blank">See it live</a>
+                  <div class="col-md-7 col-sm-12 content-font text-left" style="font-size: 20px;">
+                    <p><span class="overview strong">OVERVIEW: </span>A single page, HTML5 site to educate potential and existing clients on current company development.</p>
+                    <p><span class="strong">STATUS: </span>Live</p>
+                    <p><span class="strong">RESPONSIBILITIES: </span>Development and maintenance of code base</p>
+                    <p><span class="strong">DESCRIPTION: </span>WordPress, PHP, CSS</p>
+                    <a href="http://aheadofthegrade.com/" class="btn btn-lg btn-default accent-font-uppercase" target="_blank">See it live</a>
                   </div>
                 </div>
               </div> <!-- End modal-body -->
@@ -389,20 +409,20 @@
   </div>
 
   <div class="row contact-methods">
-    <div class="col-md-1 col-md-offset-4">
+    <div class="col-md-1 col-sm-2 col-xs-2 col-md-offset-4 col-sm-offset-2 col-xs-offset-2">
       <a href="mailto:brittany.pecenka@gmail.com?subject=Hello,%20nice%20to%20meet%20you.">
       <i class="contact-icon fa fa-envelope fa-2x"></i></a>
     </div>
 
-    <div class="col-md-1">
+    <div class="col-md-1 col-sm-2 col-xs-2">
       <a href="https://www.linkedin.com/in/brittany-pecenka-730860102" target="_blank"><i class="contact-icon fa fa-linkedin-square fa-2x"></i></a>
     </div>
 
-    <div class="col-md-1">
+    <div class="col-md-1 col-sm-2 col-xs-2">
       <a href="https://github.com/blpecenka" target="_blank"><i class="contact-icon fa fa-github fa-2x"></i></a>
     </div>
 
-    <div class="col-md-1">
+    <div class="col-md-1 col-sm-2 col-xs-2">
       <a href="http://codepen.io/britt7RUNNER/" target="_blank"><i class="contact-icon fa fa-codepen fa-2x"></i></a>
     </div>
 
